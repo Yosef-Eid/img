@@ -1,0 +1,117 @@
+
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+div #img0{
+    width:200px;
+    height: 200px;
+    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+div #img1{
+    width:200px;
+    height: 200px;
+    position: relative;
+
+    position: absolute;
+    left: 200px;
+    top: 0;
+    transition: .3s;
+}
+
+div #img2{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: .3s;
+}
+
+div #img3{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    transition: .3s;
+}
+
+div #img4{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    transition: .3s;
+}
+
+div #img5{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    transition: .3s;
+}
+
+div #img6{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    transition: .3s;
+}
+
+div #img7{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    transition: .3s;
+}
+
+div #img8{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    transition: .3s;
+}
+
+img{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
